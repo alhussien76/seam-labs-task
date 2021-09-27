@@ -1,6 +1,6 @@
 # Deployment
 
-this app i deployed via firebase [app](https://seam-labs-task.web.app/)
+this app is deployed via firebase [app](https://seam-labs-task.web.app/)
 
 ## SeamlabsTask
 
