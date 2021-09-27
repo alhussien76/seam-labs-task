@@ -1,4 +1,8 @@
-# SeamlabsTask
+# Deployment
+
+this app i deployed via firebase [app](https://seam-labs-task.web.app/)
+
+## SeamlabsTask
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
 
