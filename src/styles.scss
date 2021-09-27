@@ -1,1 +1,142 @@
 /* You can add global styles to this file, and also import other style files */
+$border-raduis:0.5rem;
+$font-size:0.6rem;
+$text-navy:#002147;
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+.social-nav-font{
+  font-size: $font-size !important;
+}
+.pointer {
+  cursor: pointer;
+}
+.bg-sky{
+  background-color: #F0F4F9;
+}
+.bg-DarkNavyBlue{
+  background-color: $text-navy ;
+}
+.text-NavyBlue{
+  color: $text-navy;
+}
+.font-14{
+  font-size: 14px;
+}
+.font-weight-500{
+  font-weight: 500;
+}
+.font-serif{
+  font-family: serif;
+}
+.font-Roboto{
+  font-family: 'Roboto';
+}
+.height-inherit{
+  height: inherit;
+}
+.rounded-4{
+  border-radius: $border-raduis;
+}
+.rounded-8 {
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+.rounded-16 {
+  border-radius: 16px !important;
+  overflow: hidden;
+}
+.font-size-x-responsive{
+  font-size: $font-size;
+}
+.font-size-x{
+  font-size: $font-size;
+}
+.font-size-m{
+ font-size: $font-size+0.1;
+}
+.font-course-place{
+  font-size:$font-size ;
+}
+.timer-font-size{
+  font-size: calc(1.275rem + .3vw);
+}
+.margin-negtive-20{
+  margin-top: -20%;
+}
+.min-height-responsive{
+  min-height: 2.5rem;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+// .back-ground-size{
+//   background-size: contain;
+// }
+.back-ground-size{
+  background-size: cover;
+}
+
+.example-full-width {
+  width: 100%;
+}
+// @media only screen and ( min-width: 768px  ) and (max-width: 991.9px)  {
+  
+//   .back-ground-size{
+//     background-size: 100% 100%;
+//   }
+
+// }
+@media only screen and ( max-width: 768px  )  {
+  
+  .back-ground-size{
+    height: 20rem;
+    background-size: 100% 100%;
+  }
+
+}
+
+@media only screen and (max-width: 991.9px)  {
+  
+  .back-ground-size{
+    background-size: 100% 100%;
+  }
+
+}
+@media only screen  and (max-width: 509px)  {
+  
+    .timer-font-size{
+      font-size: $font-size+0.1;
+    }
+    .font-size-x-responsive{
+      font-size: 8px;
+    }
+    .social-nav-font{
+      font-size: 0.4rem !important;
+    }
+    
+  
+}
+@media only screen  and (max-width: 424px)  {
+  
+  .min-height-responsive{
+    min-height: 4rem;
+  }
+  .font-size-x-responsive{
+    font-size: 6px;
+  }
+}
+
+@media only screen and ( min-width: 510px  ) and (max-width: 847px)  {
+  
+  .timer-font-size{
+    font-size: $font-size+0.4;
+  }
+
+}

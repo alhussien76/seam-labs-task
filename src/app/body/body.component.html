@@ -1,0 +1,81 @@
+<div id="courses" class="container mt-4 ">
+    <div class="row m-0 d-flex justify-content-center align-self-center">
+        <div class="col-auto mb-3 mt-2 fs-2 text-NavyBlue fw-bold font-serif">
+            Top Features Courses
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col-12">
+            <div class="row d-flex justify-content-around ">
+                <div *ngFor="let course of courses"
+                    class="col-md-3 col-5 d-flex flex-column px-0 mx-2 my-3 rounded  border  ">
+                    <app-feature-course class=" d-flex flex-column h-100 " [image]="course.image" [logo]="course.logo"
+                        [content]="course.content" [place]="course.place"></app-feature-course>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- center body -->
+<div class="container-fluid  mt-5 pt-5">
+    <div class="row px-2 d-flex justify-content-center">
+        <div style="background-image:url(assets/img13.png); background-repeat: no-repeat ;"
+            class=" col-8 col-md-5 col-lg-5 col-xl-4 d-flex flex-column back-ground-size justify-content-between ">
+
+            <div style="position: relative; bottom: 1.8rem; right: 2rem;"
+                class=" col-sm-2 col-3 col-md-2 col-md-3 col-lg-2 d-flex justify-content-center align-items-end rounded bg-warning">
+                <img style="position: relative; top:0.9rem ; left:0.5rem" width="80%" src="assets/img14.png"
+                    alt="instgram post">
+            </div>
+
+            <div class="col-8 bg-white d-flex rounded p-2 justify-content-center align-self-center">
+                Kimmie Vo
+            </div>
+
+        </div>
+        <div class="col-10 col-md-5 col-lg-5 mt-2 mt-md-0 ms-2 ">
+            <div class="col-12 lh-sm fs-1 font-serif fw-bold text-NavyBlue">
+                Successful Student <br> <span class="text-warning"> Feedback</span>
+            </div>
+            <div class="col-12 font-size-x my-3">Take courses from the world’s best instructors and
+                universities.
+                Courses include recorded auto-graded and peer-reviewed assignments,
+                video lectures, and community discussion forums. When you complete a course,
+                you’ll be eligible to receive a shareable electronic Course Certificate
+                for a small fee.
+            </div>
+            <div class="col-12 font-size-m text-NavyBlue font-weight-500 mb-2">
+                The courses that Kimmie has taken
+            </div>
+            <div class="col-12 d-flex ">
+                <div class="col-auto d-flex align-items-center">
+                    <img style="z-index: 1;" width="80%" height="90%" src="assets/logo4.png" alt="logo">
+                </div>
+                <div style="position:relative; right:1.8rem;width: 87%;"
+                    class="col-10 d-flex align-content-center flex-wrap rounded bg-sky">
+                    <div class="row  d-flex m-0 align-items-center">
+                        <div class="col-12 font-size-m font-weight-500 text-NavyBlue ps-4 ">
+                            Modern and Contemporary Art and Design
+                        </div>
+                        <div class="col-12 font-size-x ps-4 text-muted">
+                            The Museum of Modern Art
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- bottom body -->
+<section class=" bg-sky py-5">
+    <div class=" container-fluid " style="background-image: url(assets/map.png); background-size: 47%; 
+    background-position: center; background-repeat:no-repeat ; ">
+        <img style="width: 68%; margin-inline: 16%; height: auto;" src="assets/Group.png" alt="awards acheive">
+    </div>
+</section>
