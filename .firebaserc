@@ -6,7 +6,7 @@
     "ng-test-ed505": {
       "hosting": {
         "app": [
-          "education-landing-page"
+          "seamlabs-landing-page"
         ]
       }
     }
